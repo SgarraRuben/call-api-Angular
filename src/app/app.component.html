@@ -1,2 +1,27 @@
-<h1>Esercizio chiamata API</h1>
-<value></value>
+<div>
+    <h1>inserisci id</h1>
+    <input type="text"  #num >
+    
+   <button (click)="getById(num.value)"  >cerca</button>
+   <div>
+    <ul>
+       <li>
+        name: {{people.name}}  
+       </li>
+       <li> 
+        mass: {{people.mass}} 
+       </li>
+       <li> 
+        heingh: {{people.height}}
+       </li>
+      </ul>
+     
+    </div>
+  </div>
+ <p></p>
+
+
+   
+
+  
+
