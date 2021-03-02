@@ -10,14 +10,14 @@ import { People } from './people';
 export class AppComponent implements OnInit{
  
   people: People;
-  peoples: People[];
+ 
   constructor(private api:GetApiService){
 
 
   }
   ngOnInit() {
     
-    this.peoples=[];
+    
       
   }
   
@@ -34,7 +34,7 @@ export class AppComponent implements OnInit{
   }
 
   
- 
+   
 
 
 
