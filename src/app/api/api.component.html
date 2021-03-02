@@ -1,0 +1,24 @@
+<p>api works!</p>
+
+<div>
+  <h1>Call API</h1>
+  <input type="text" placeholder="inserisci id" #num>
+
+  <button (click)="getById(num.value)">cerca</button>
+  <div>
+
+    <ul>
+      <li>
+        name: {{people.name}}
+      </li>
+      <li>
+        Height: {{people.height}}
+      </li>
+      <li>
+        mass: {{people.mass}}
+      </li>
+    </ul>
+
+  </div>
+</div>
+

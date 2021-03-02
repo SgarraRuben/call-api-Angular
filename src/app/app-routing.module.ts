@@ -1,11 +1,14 @@
+import { ApiComponent } from './api/api.component';
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 
 const routes: Routes = [
-
-
+  {
+    path: '',
+    component: ApiComponent
+  }
 ];
 
 @NgModule({
