@@ -5,20 +5,30 @@
   <input type="text" placeholder="inserisci id" #num>
 
   <button (click)="getById(num.value)">cerca</button>
-  <div>
 
+  <div *ngIf="!isEmpty(people)">
     <ul>
       <li>
         name: {{people.name}}
       </li>
+
       <li>
         Height: {{people.height}}
       </li>
       <li>
         mass: {{people.mass}}
-      </li>
-    </ul>
 
+      </li>
+
+
+    </ul>
   </div>
+
 </div>
 
+<div>
+  <h1>Login</h1>
+  <input type="text" [(ngModel)]="serviceInput.username" placeholder="username">
+  <input type="text" [(ngModel)]="serviceInput.password" placeholder="password">
+  <button (click)="login()">Loginnn</button>
+</div>
