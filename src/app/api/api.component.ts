@@ -37,8 +37,8 @@ export class ApiComponent implements OnInit {
     params['username'] = this.serviceInput.username;
     params['password'] = this.serviceInput.password;
     this.api.loginOne(params).subscribe((res: string) => {
-     let response=res;
-     console.log(response);
+     
+     
       
     });
   }

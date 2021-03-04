@@ -9,11 +9,13 @@ import { ApiComponent } from './api/api.component';
 import { SecondComponentComponent } from './second-component/second-component.component';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     ApiComponent,
     AppComponent,
     SecondComponentComponent,
+    
     
     
   ],
